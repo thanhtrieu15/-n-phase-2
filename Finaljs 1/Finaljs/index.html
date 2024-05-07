@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheyStore - Homepage</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.w3.org/2000/svg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="img/home.png" alt="">
+        </div>
+        <input type="text" id="searchInput" placeholder="Tìm kiếm..." style="width: 500px;  " >
+          <button id="searchButton">Tìm kiếm</button> 
+        <nav class="navbar">
+            <a href="index.html"><i class="fa fa-home" style="font-size:30px ; color:rgb(0, 0, 0)"></i></a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#product">Product</a>
+            <a href="#contact">Contact</a>
+            <a href="#cart"><i class="fa fa-shopping-cart" style="font-size:30px ; color:rgb(56, 199, 255)"></i></a>
+            <a href="#user"><i class="fa fa-user" style="font-size:30px ; color:rgb(56, 199, 255)"></i></a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slide1.png" alt="" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slide2.png" alt="" class="d-block w-100">
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="./img/slide3.png" alt="" class="d-block w-100">
+                </div> -->
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button> -->
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <h3>Protein Tinh Khiết</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <h3>Thực Phẩm Thể Thao </h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <h3>Combo Tiết Kiệm</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <h3>Khuyến Mãi Đặc Biệt</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/home1.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images" alt="">
+        </div>
+
+        <div class="introbox1 mgminu">
+            <div class="introbox1l">
+                <div class="introbox1__des">
+                </div>
+                <h1 class="introbox1__tit">
+                    Giới thiệu </h1>
+                <div class="introbox1__content ">
+                    <h3>Welcom to. WheyStore 😍</h3><br>
+                    <h1> </h1>
+                    <p>
+                        Được thành lập vào đầu năm 2014, trải qua 10 năm hoạt động và phát triển.
+                        WheyStore với sứ mệnh nâng cao tầm vóc Việt,
+                        luôn nỗ lực mang đến sản phẩm chất lượng cùng chính sách tích điểm thành viên và các chương
+                        trình khuyến mãi sẽ giúp bạn mua sắm dễ dàng.
+                    </p>
+                    <p>
+                        Với gần 10 năm kinh nghiệm, WheyStore tự hào là một trong những đơn vị hàng đầu trong lĩnh vực
+                        phân phối thực phẩm thể hình và thực phẩm bổ sung tăng cường sức khỏe.
+                        WheyStore từng bước ghi dấu ấn và nhận được sự quan tâm của đông đảo những người yêu thích thể
+                        hình trên khắp cả nước và những vận động viên thể hình chuyên nghiệp.
+                    </p>
+                    <p>
+                        Ngoài cung cấp thực phẩm bổ sung, WheyStore còn là sân chơi giao lưu,
+                        chia sẻ những kiến thức thể hình dành cho người đam mê tập gym hoặc muốn xây dựng chế độ dinh
+                        dưỡng lành mạnh, khoa học.
+
+                    </p>
+                    <p>Với đội ngũ nhân viên tận tình, chuyên sâu, có kiến thức khoa học.
+
+                        WheyStore rất hân hạnh được phục vụ quý khách!</p><br><br>
+                    <div class="btn">
+                        <a href="https://www.wheystore.vn/news/wheystore-uy-tin-mot-thap-ky-1444?preview=1" title="">Xem
+                            thêm
+                            <svg width="6" height="" viewBox="0 0 24 24" stroke="#194185" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <!-- <path d="M3.75 12H20.25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> -->
+                                <!-- <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> -->
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-content">
+
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/wheystore.vn"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.tiktok.com/@wheystore.vn"><i class='bx bxl-tiktok'></i></a>
+                        <a href="https://www.youtube.com/@wheystorechannel6401"><i class='bx bxl-youtube'></i></a>
+                        <a href="https://www.instagram.com/wheystore.vn/"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="introbox1r">
+                <figure class="figure__hover">
+                    <img alt="Giới thiệu WheyStore" width="600" height="500"
+                        src="https://www.wheystore.vn/images/landingpages/resized/khach-hang_1708422822.jpg"
+                        srcset="https://www.wheystore.vn/images/landingpages/resized/khach-hang_1708422822.jpg.webp">
+                </figure>
+            </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <h2 class="heading"> <span>Sản Phẩm</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <img class="services-img" src="img/iso-hd.jpg" alt="">
+                <h3>BPI SPORTS</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+            <div class="services-box">
+                <img class="services-img" src="img/hydro-whey.jpg" alt="">
+                <h3>BiotechUSA</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+             <div class="services-box">
+                <img class="services-img" src="img/iso-hd.jpg" alt="">
+                <h3>BPI SPORTS</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+            <div class="services-box">
+                <img class="services-img" src="img/iso-hd.jpg" alt="">
+                <h3>BPI SPORTS</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+            <div class="services-box">
+                <img class="services-img" src="img/iso-hd.jpg" alt="">
+                <h3>BPI SPORTS</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+            <div class="services-box">
+                <img class="services-img" src="img/iso-hd.jpg" alt="">
+                <h3>BPI SPORTS</h3>
+                <p>BPI ISO HD 100% Pure Isolate Protein 5lbs</p>
+                <p class="services-price">1.540.000đ</p>
+                <a href="#" class="btn">Thêm Vào Giỏ Hàng </a>
+            </div>
+        </div>
+    </section>
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <img class="heading" src="img/banner1.jpg" alt=""><br><br>
+        <h2 class="heading"> WHEY PROTEIN </h2>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="loadwhey">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    <!-- <section class="services" id="product">
+        <img class="heading" src="img/banner1.jpg" alt=""  ><br><br>
+
+        <h2 class="heading"> WHEY PROTEIN </h2>
+        
+        <div class="services-container" id="loadwhey">
+        </div>
+        <div class="scroll-buttons">
+            <button class="scroll-btn scroll-left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="scroll-btn scroll-right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section> -->
+    <section class="services" id="product">
+        <img class="heading" src="img/banner1.jpg" alt=""><br><br>
+
+        <h2 class="heading" style="color:rgb(255, 0, 0)"> WHEY PROTEIN </h2>
+
+        <div class="services-container" id="loadwhey">
+        </div>
+        <div class="scroll-buttons">
+            <button class="scroll-btn scroll-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="scroll-btn scroll-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+    <section class="services" id="product">
+        <img class="heading" src="img/banner2.jpg" style="height: 153px;" alt=""><br><br>
+
+        <h2 class="heading" style="color:rgb(217, 147, 16)"> TĂNG SỨC MẠNH </h2>
+
+        <div class="services-container" id="loadTangSm">
+        </div>
+        <div class="scroll-buttons">
+            <button class="scroll-btn scroll-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="scroll-btn scroll-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+    <section class="services" id="product">
+        <img class="heading" src="img/banner3.jpg" style="height: 150px;" alt=""><br><br>
+
+        <h2 class="heading" style="color:rgb(0, 26, 143)"> VITAMIN - D3&K2 - DẦU CÁ </h2>
+
+        <div class="services-container" id="loadVitamin">
+        </div>
+        <div class="scroll-buttons">
+            <button class="scroll-btn scroll-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="scroll-btn scroll-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Thương Hiệu Nổi Bật</h2>
+        <h3>WheyStore.vn Uy Tín 10 Năm Bán Hàng - Cam Kết Chính Hãng 100%, Bồi Thường 20 Lần Nếu Phát Hiện Hàng Giả.
+        </h3>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/nutricost_1699002696.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/ostrovit-logo_1706581214.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/mutant_1697795456.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/nutrex-logo_1702952233.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/applied-nutrition_1699002661.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/labrada_1699076691.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/pvl-logo_1701747758.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/bpi-sports_1701247998.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/rule1-protein_1697793836.jpg.webp"
+                            alt="">
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="https://www.wheystore.vn/images/products/manufactories//resized/amix-nutrition_1699076492.jpg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--cart design-->
+    <section class="cart" id="cart">
+        <div class="cart-area section-space-y-axis-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cart-products">
+                            <form action="" method="POST">
+                                <div class="table-content table-responsive">
+                                    <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="product_remove">Xóa</th>
+                                            <th class="product-thumbnail">Ảnh</th>
+                                            <th class="cart-product-name">Sản Phẩm</th>
+                                            <th class="product-price">Đơn Giá</th>
+                                            <th class="product-quantity">Số Lượng</th>
+                                            <th class="product-subtotal">Tổng</th>
+        
+                                        </tr>
+                                    </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product_remove">
+                                                        <i class="pe-7s-close" title="Remove"></i>
+                                                    </a>
+                                                </td>
+                                                <td class="product-thumbnail">
+                                                    <a href="javascript:void(0)">
+                                                        <img style="max-width: 120px;"
+                                                            src="">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name"><a href="javascript:void(0)">
+                                                    </a></td>
+                                                <td class="product-price"><span class="amount">
+                                                    </span></td>
+                                                <td class="quantity">
+                                                    <div class="cart-plus-minus">
+                                                        <div>
+                                                            <input class="cart-plus-minus-box" type="text" name="soluong[]"
+                                                                value="">
+                                                            <input class="cart-plus-minus-box" type="hidden" name="product_id[]"
+                                                                value="">
+                                                        </div>
+        
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal"><span class="amount">
+                                                    </span></td>
+        
+                                            </tr>
+                                        </tbody>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="coupon-all">
+                                        <div class="coupon">
+                                            <input id="coupon_code" class="input-text" name="coupon_code" value=""
+                                                placeholder="Mã Giảm Giá" type="text">
+                                            <input class="button mt-xxs-30" name="apply_coupon" value="Áp Dụng" type="submit">
+                                        </div>
+                                        <div class="coupon2">
+                                            <input class="button" name="capnhatsoluong" value="Cập Nhật Giỏ Hàng" type="submit">
+                                                    <input class="cart-plus-minus-box" type="hidden" name="thanhtoan_soluong[]"
+                                                        value="">
+                                                    <input class="cart-plus-minus-box" type="hidden" name="thanhtoan_product_id[]"
+                                                        value="">     
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <br>
+                        </form>
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <form action="" method="POST">
+                                    <div class="checkbox-form">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="checkout-form-list">
+                                                        <label>Họ Và Tên <span class="required" ;
+                                                            style="color: red">*</span></label>
+                                                        <input placeholder="" type="text" name="name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="checkout-form-list">
+                                                        <label>Số Điện Thoại <span class="required" ;
+                                                            style="color: red">*</span></label>
+                                                        <input type="text" name="phone">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="checkout-form-list">
+                                                        <label>Địa Chỉ <span class="required" ;
+                                                                style="color: red">*</span></label>
+                                                        <input placeholder="" type="text" name="address">
+                                                        <select class="form-select form-select-lg mb-3"
+                                                            aria-label=".form-select-lg example"
+                                                            style="font-size: 15px;">
+                                                            <option selected>Loại Địa chỉ </option>
+                                                            <option value="1">Văn Phòng</option>
+                                                            <option value="2">Nhà Riêng</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="order-notes">
+                                                    <div class="checkout-form-list checkout-form-list-2">
+                                                        <label>Ghi Chú</label>
+                                                        <textarea name="note" style="resize: none;" id="checkout-mess" cols="30"
+                                                            rows="10"
+                                                            placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="payment-method">
+                                                    <div class="payment-accordion">
+                                                        <div class="order-button-payment">
+                                                                <input class="cart-plus-minus-box" type="hidden"
+                                                                    name="thanhtoan_soluong[]"
+                                                                    value="">
+                                                                <input class="cart-plus-minus-box" type="hidden"
+                                                                    name="thanhtoan_product_id[]"
+                                                                    value="">
+                                                            <input value="Đặt Hàng" name="thanhtoan" type="submit">
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <form action="" method="post">
+                                    <div class="your-order">
+                                        <h3>Thông Tin Đặt Hàng</h3>
+                                        <div class="your-order-table table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="cart-product-name">Sản Phẩm</th>
+                                                        <th class="cart-product-total">Tổng</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                        <tr class="cart_item">
+                                                            <td class="cart-product-name"><strong
+                                                                    class="product-quantity">
+                                                                </strong>
+                                                            </td>
+                                                            <td class="cart-product-total"><span class="amount">
+                                                                </span></td>
+                                                        </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr class="order-total">
+                                                        <th>Tổng Tiền</th>
+                                                        <td><strong><span class="amount">
+                                                                </span></strong></td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copy Right©2014 - 2024 bởi WheyStore.vn & WheyStore.com</p>
+        </div>
+
+        <div class="footerbot_r">
+            <span class="footer__tb">
+                <img class="lazy" alt="WheyStore.vn" width="80px" height="30px" src="./img/footer1.jpg">
+            </span>
+
+            <span class="footer__ncsc">
+                <img class="lazy" alt="WheyStore.vn" width="80px" height="30px" src="./img/footer2.jpg">
+            </span>
+
+            <span class="footer__dmca">
+                <img class="lazy" alt="WheyStore.vn" width="80px" height="30px" src="./img/footer3.jpg">
+            </span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
